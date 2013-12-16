@@ -112,7 +112,7 @@ The source code for all of these interfaces is included in the Allegro Hand MSVS
 
 If you need to implement support for another CAN interface, please see the following page for support:
 
-* [Allegro Hand CAN Protocol](http://simlab.dyndns.org:9000/AllegroHandWiki/index.php/CAN_Protocol) (wiki)
+* [Allegro Hand CAN Protocol (wiki)](http://simlab.dyndns.org:9000/AllegroHandWiki/index.php/CAN_Protocol)
 * [Allegro Hand CAN Protocol (Korean, pdf)](http://simlab.dyndns.org:9000/AllegroHandWiki/images/a/a2/AllegroHandCanProtocol_KR.pdf)
 
 

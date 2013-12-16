@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="Motor" rdd="ACTUAL" target="JOINT" type="ACTUATOR" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit address="" creator="" date="" description="" email=""/>
+
+  <specification byte="4" period="0" physics="..\..\..\devices\rDeviceERHandMotor.rdd">
+    <property name="channel" value="11"/>
+    <property name="current lower" value="-1.0"/>
+    <property name="current upper" value="1.0"/>
+    <property name="direction" value="-"/>
+    <property name="gear ratio" value="1"/>
+    <property name="system device name" value="COMM"/>
+    <property name="torque constant" value="1"/>
+    <property name="torque scale" value="1.0"/>
+  </specification>
+
+</Device>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="Data transfer via TCP/IP" rdd="VIRTUAL" target="ANYWHERE" type="BOTH" ver="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit xmlns="http://www.simlab.co.kr/2008/AML" address="SimLab Co., Ltd., Seoul Korea" creator="Daegeun Ha" date="Jun. 13, 2012" description="Data transfer via TCP/IP" email="dkha@simlab.co.kr"/>
+
+  <specification byte="100" period="1000" physics="..\..\..\devices\rDeviceERHandRemoteTP_TCPIP.rdd">
+    <property name="port_client" value="6150"/>
+  </specification>
+
+</Device>

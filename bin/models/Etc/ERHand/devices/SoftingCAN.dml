@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="SoftingCAN" rdd="ACTUAL" target="SYSTEM" type="BOTH" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit address="" creator="" date="" description="" email=""/>
+
+  <specification byte="128" period="0" physics="..\..\..\devices\rDeviceERHandSoftingCAN.rdd">
+    <property name="CAN_Ch" value="1"/>
+    <property name="JDOF" value="16"/>
+    <property name="Servo Mode" value="Torque"/>
+  </specification>
+
+</Device>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="Encoder" rdd="VIRTUAL" target="JOINT" type="SENSOR" ver="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit address="" creator="" date="" description="" email=""/>
+
+  <specification byte="4" period="0" physics="..\..\..\devices\rDeviceERHandEncoder.rdd">
+    <property name="channel" value="7"/>
+    <property name="direction" value="+"/>
+    <property name="offset" value="-1119"/>
+    <property name="system device name" value="COMM"/>
+  </specification>
+
+</Device>

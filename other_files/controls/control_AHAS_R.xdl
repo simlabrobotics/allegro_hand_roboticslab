@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<DLL xmlns="http://www.simlab.co.kr/2008/XDL" name="control_ERHand" path="control_AHAS.dll" type="USER_CONTROL" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/XDL XDL.xsd">
+
+  <credit address="SimLab Co., Ltd." creator="Sangyup Yi" date="August 22, 2012" description="control Allegro Hand" email="seanyi@simlab.co.kr"/>
+
+  <property name="handNumber" value="1"/>
+
+  <property name="myName" value="hand1"/>
+
+  <property name="whichHand" value="Right"/>
+
+</DLL>

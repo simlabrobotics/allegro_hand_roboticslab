@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="ESDCAN" rdd="ACTUAL" target="SYSTEM" type="BOTH" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit xmlns="http://www.simlab.co.kr/2008/AML" address="Seoul, Korea" creator="SimLab Co., Ltd." date="September 25th, 2012" description="ESD CAN Interface" email="seanyi@simlab.co.kr"/>
+
+  <specification byte="128" period="0" physics="..\..\..\devices\rDeviceERHandESDCAN.rdd">
+    <property name="CAN_Ch" value="0"/>
+    <property name="JDOF" value="16"/>
+    <property name="Servo Mode" value="Torque"/>
+  </specification>
+
+</Device>

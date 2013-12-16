@@ -5,7 +5,7 @@ Allegro Hand RoboticsLab Project and Source
 
 
 Contents
-========
+--------
 
 * 1 Download Project
 * 2 Other files
@@ -24,7 +24,7 @@ If the path does not exist, please create the necessary folders.
 
 
 Other files
-===========
+-----------
 
 Within the allegro_hand_roboticslab directory, you will find a folder titled "other_files". Within this folder is a controll DLL file and two XDL files used to link to the controller DLL and set properties (like left or right) for the hand controller. Move both of these files to the following directory:
 ```
@@ -38,20 +38,22 @@ Also in the folder, "other_files", is a "models" directory. Replicate the path f
 ```
 
 Device DMLs
-===========
+-----------
 
 The encoder and motor DMLs hold information like joint directions and offsets. These DMLs are therefore made specifically for each Allegro Hand. The DML files for your Allegro Hand can be downloaded from your customer page on the Allegro Hand wiki. Look for the link just below the the table of directions and offsets for the respective hand on your page.
-simlab.co.kr/wiki/allegrohand
+
+**Wiki:** simlab.co.kr/wiki/allegrohand
 
 The DML folder contains 16 encoder DMLs and 16 motor DMLs along with DMLS for CAN and other other communication devices. Copy these files to the following folder, replacing all duplicates. You may need admin privileges to do this.
 ```
 [RoboticsLab Install Directory]\bin\models\Etc\ERHand\devices\
 ```
-**Note:** If device DMLs are not available on your customer-specific page, please email alexalspach@simlab.co.kr.
+**Note:** If device DMLs are not available on your customer-specific page, please email 
+**Alex Alspach** alexalspach@simlab.co.kr.
 
 
 MSVS Solution
-=============
+-------------
 
 The MSVS2008 solution is located in the folder "msvc9" in the "allegro_hand_roboticslab" directory.
 
@@ -76,7 +78,7 @@ To run either of the applications, set it as the start-up project (right-click t
 
 
 Left or Right
-=============
+-------------
 
 Find this line in both applications, simAllegroHand_dist and appAllegroHand_dist:
 ```
@@ -88,16 +90,16 @@ string_type control_path = _T("controls/control_AHAS_L.xdl");     // For a left 
 ```
 
 Using Your CAN Interface
-========================
+------------------------
 
 Out of the box, Allegro Hand and Allegro Application Studio/RoboticsLab support five different CAN interfaces:
 
-*Softing PCI
-*ESD PCI
-*Kvaser PCI
-*Peak PCI
-*Peak USB
-*NI USB
+* Softing PCI
+* ESD PCI
+* Kvaser PCI
+* Peak PCI
+* Peak USB
+* NI USB
 
 To use any of these CAN interfaces, you must load the proper Allegro Hand AML file. In the application, appAllegroHand_dist, find the line:
 ```

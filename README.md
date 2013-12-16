@@ -49,7 +49,7 @@ The DML folder contains 16 encoder DMLs and 16 motor DMLs along with DMLS for CA
 [RoboticsLab Install Directory]\bin\models\Etc\ERHand\devices\
 ```
 **Note:** If device DMLs are not available on your customer-specific page, please email 
-**Alex Alspach** alexalspach@simlab.co.kr.
+**Alex Alspach** alexalspach@simlab.co.kr
 
 
 MSVS Solution

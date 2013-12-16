@@ -42,7 +42,7 @@ Device DMLs
 
 The encoder and motor DMLs hold information like joint directions and offsets. These DMLs are therefore made specifically for each Allegro Hand. The DML files for your Allegro Hand can be downloaded from your customer page on the Allegro Hand wiki. Look for the link just below the the table of directions and offsets for the respective hand on your page.
 
-**Wiki:** simlab.co.kr/wiki/allegrohand
+**Wiki:** [simlab.co.kr/wiki/allegrohand](http://simlab.co.kr/wiki/allegrohand)
 
 The DML folder contains 16 encoder DMLs and 16 motor DMLs along with DMLS for CAN and other other communication devices. Copy these files to the following folder, replacing all duplicates. You may need admin privileges to do this.
 ```
@@ -112,8 +112,8 @@ The source code for all of these interfaces is included in the Allegro Hand MSVS
 
 If you need to implement support for another CAN interface, please see the following page for support:
 
-* Allegro Hand CAN Protocol (English) 
-* File:AllegroHandCanProtocol KR.pdf (Korean, ÇÑ±¹¾î)
+* [Allegro Hand CAN Protocol](http://simlab.dyndns.org:9000/AllegroHandWiki/index.php/CAN_Protocol) (wiki)
+* [Allegro Hand CAN Protocol (Korean, pdf)](http://simlab.dyndns.org:9000/AllegroHandWiki/images/a/a2/AllegroHandCanProtocol_KR.pdf)
 
 
 **Note:** Please see the RoboticsLab documentation for information on creating a CAN System Device and including it in the Allegro Hand AML model file. 
